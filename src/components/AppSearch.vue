@@ -4,7 +4,6 @@
         <button @click="$emit(`search`searchedString)">Search </button>
     </div>
 
-
 </template>
 <script>
 export default {
