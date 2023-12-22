@@ -3,7 +3,6 @@
         <AppSearch @serach="getMovies"/>
         <AppMain :movies="moviesList"/>
     </div>
-
 </template>
 <script>
 import AppSearchVue from './components/Appsearch.vue';
@@ -22,7 +21,6 @@ export default {
     },
     methods: {
         getMovies(searchMovie = ``) {
-
             axios.get('https://api.themoviedb.org/3/search/movie?api_key=dadc09536eef8ff2ae053c9ebd6144cb&query=', searchMovie)
                 .then((response) => {
                     // handle success

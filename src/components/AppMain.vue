@@ -4,7 +4,6 @@
             {{movie.title}}
         </article>
     </div>
-
 </template>
 <script>
 export default {
