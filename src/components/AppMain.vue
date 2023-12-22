@@ -3,7 +3,7 @@
         <article v-for="movie in movies">
             {{movie.title}}
             <p>Titolo originale: {{movie.original_title}}</p>
-            <p>Lingua originale: {{movie.original_language}}</p>
+            <p>Lingua originale: <img :src=" `/images/flags `+ movie.original_language +` png` " alt=""> {{}}</p>
             <p>Voto: {{movie.vote_average}}</p>
         </article>
         <article v-for='tvSeries in tvSeries'>
