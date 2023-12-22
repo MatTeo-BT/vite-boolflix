@@ -16,6 +16,10 @@ export default {
     },
     data() {
         return {
+            itFlag: 'assets/flags_img/Flag_of_Italy.svg.png',
+            deFlag: 'assets/flags_img/Flag_of_Germany.svg.png',
+            UKflag: 'assets/flags_img/Flag_of_the_united_kingdom.png',
+            esFlag: 'assets/flags_img/spain-flag-free-png.webp',
             moviesList: [],
             tvSeriesList: []
         }
